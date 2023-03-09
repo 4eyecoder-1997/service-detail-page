@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.service-details {
+    padding: 25px 75px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.service-img img {
+    height: 450px;
+}
+
+.sb-icon {
+    width: 75px;
+    height: 75px;
+}
+
+form {
+    background: #F5F5FF;
+    border-radius: 8px;
+    /* padding: 25px; */
+
+}
+
+.booking-form .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #FE7101;
+}
+
+.btn {
+    border-color: #FE7101;
+}
+
+.btn-primary {
+    background-color: #FE7101;
+}
+
+/* FAQ */
+/* body{margin-top:20px;} */
+/* .section_padding_130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+} */
+.faq_area {
+    position: relative;
+    z-index: 1;
+    background-color: #f5f5ff;
+    background-color: transparent;
+}
+
+.faq-accordian {
+    position: relative;
+    z-index: 1;
+}
+.faq-accordian .card {
+    position: relative;
+    z-index: 1;
+    /* margin-bottom: 1.5rem; */
+}
+.faq-accordian .card:last-child {
+    margin-bottom: 0;
+}
+.faq-accordian .card .card-header {
+    background-color: #f5f5ff;
+    padding: 0;
+    border-bottom-color: #ebebeb;
+}
+.faq-accordian .card .card-header h6 {
+    cursor: pointer;
+    padding: 1.75rem 2rem;
+    color: #FE7101;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.faq-accordian .card .card-header h6 span {
+    font-size: 1.5rem;
+}
+.faq-accordian .card .card-header h6.collapsed {
+    color: #070a57;
+}
+.faq-accordian .card .card-header h6.collapsed span {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.faq-accordian .card .card-body {
+    padding: 1.75rem 2rem;
+}
+.faq-accordian .card .card-body p:last-child {
+    margin-bottom: 0;
+}
+
+.service-list, .our-benefits {
+    list-style-type: number;
+}
+
+.service-list li, .benefit {
+    margin-left: 25px;
+}
+
+@media (max-width: 768px) {
+    .service-details {
+        padding: 25px;
+    }
+
+    .service-img img {
+        height: 350px;
+    }
+}
